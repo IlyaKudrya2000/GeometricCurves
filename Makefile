@@ -6,7 +6,7 @@ GeometricCurves.o: GeometricCurves.cpp
 GeometricCurves.so: GeometricCurves.o
 	g++ -shared -o libGeometricCurves.so GeometricCurves.o
 clean:
-	rm -rf * *.o *.so
+	rm -rf *.o *.so CurvesStatic CurvesDynamic
 rebuild:
 	Make clean
 	Make all
