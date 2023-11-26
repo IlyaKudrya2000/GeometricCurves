@@ -5,6 +5,7 @@
 #include <memory>
 #include <parallel/algorithm>
 #include <vector>
+#include <ctime>
 using namespace std;
 struct Point {
   double x, y, z;
